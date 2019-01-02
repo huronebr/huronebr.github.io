@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Suporte Técnico e Serviços de Informática | Hurone</title>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit-icons.min.js"></script>
+
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+
+
+    <div id="cabecalho" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+        <nav class="uk-navbar-container uk-padding-small" uk-navbar style="position: relative; z-index: 980;">
+
+
+
+            <div class="uk-navbar-left">
+                <img src="img/logo-hurone.svg" alt="">
+            </div>
+
+            <div class="uk-navbar-right ">
+
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li>
+                        <a href="#">Parent</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Item</a></li>
+                </ul>
+                <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>Open</a>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <div id="conteudo" class="uk-container-size-expand">
+
+        <div class="uk-height-large uk-background-contain uk-background-center-right uk-light uk-flex uk-padding"
+            uk-parallax="bgy: -200" style=" background-color:#1E87F0;">
+            <div class="uk-width-1-1@m uk-text-left  uk-margin-auto-vertical">
+                <h1 class="">Suporte Técnico e Serviços de
+                    Informática</h1>
+                <button class="uk-button uk-button-default  uk-margin-small-bottom">Button</button>
+            </div>
+
+
+        </div>
+        <div id="servicos" class="uk-padding-large uk-background-muted">
+            <h2 class="    uk-text-primary uk-margin-medium-bottom">O que você precisa?</h2>
+            <div class="uk-child-width-1-5@m " uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 500; repeat: true">
+
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="img/suporte-tecnico.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h4 class="uk-card-title ">Suporte Técnico de Informática</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="img/suporte-tecnico.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h4 class="uk-card-title ">Suporte Técnico de Informática</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="img/manutencao-de-computador.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h4 class="uk-card-title">Manutenção de Computador</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="img/manutencao-de-notebook.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h4 class="uk-card-title uk-text-medium">Manutenção de Notebook</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="img/manutencao-de-notebook.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h4 class="uk-card-title uk-text-medium">Manutenção de Notebook</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+    </div>
+    <div class="uk-section uk-section-secondary uk-light">
+            <div class="uk-container-expand uk-padding-large">
+        
+                <h3>Section Secondary</h3>
+        
+                <div class="uk-grid-match uk-child-width-1-4@m" uk-grid>
+                    <div>
+                            <dl class="uk-description-list uk-description-list-divider">
+                                    <dt>Description term</dt>
+                                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+                                    <dt>Description term</dt>
+                                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+                                    <dt>Description term</dt>
+                                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+                                </dl>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <div id="offcanvas-slide" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Item</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

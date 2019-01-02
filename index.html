@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Suporte Técnico e Serviços de Informática | Hurone</title>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/css/uikit.min.css" />
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit-icons.min.js"></script>
+
+</head>
+
+<style>
+
+
+    #nav-left {
+
+font-size: 21px;
+line-height: 1em;
+font-weight: bold;
+color: #fff;
+
+}
+    
+#nav-left>li{
+    border-bottom:2px solid rgb(49, 49, 49);
+    padding-top:20px;
+    padding-bottom:20px;
+    letter-spacing:2px;
+}
+
+#nav-left>li>a{
+   
+    color: #fff;
+}
+
+</style>
+
+<body>
+
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <h3>Title</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+
+        </div>
+    </div>
+
+    <div id="suporte-tecnico-de-informatica" style="margin-left:80px;" uk-offcanvas="mode: slide; overlay: true">
+        <div class="uk-offcanvas-bar" style="background:rgb(48, 48, 48); z-index:989">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h2>Suporte Técnico de Informática</h2>
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a href="#">Manutenção de Computador</a></li>
+                <li><a href="#">Otimização de Computador</a></li>
+                <li><a href="#">Backup de dados</a></li>
+                <li><a href="#">Instalação de computador</a></li>
+                <li><a href="#">Remoção de Vírus</a></li>
+                <li><a href="#">Instalação de Programas</a></li>
+                <li><a href="#">Instalação de Impressoras</a></li>
+                <li><a href="#">Formatação de Computador</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="assistencia-e-manutencao" style="margin-left:80px;" uk-offcanvas="mode: slide; overlay: true">
+        <div class="uk-offcanvas-bar" style="background:rgb(48, 48, 48); z-index:989">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h2>Assistência e Manutenção</h2>
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a href="#">Manutenção de Computador</a></li>
+                <li><a href="#">Otimização de Computador</a></li>
+                <li><a href="#">Backup de dados</a></li>
+                <li><a href="#">Instalação de computador</a></li>
+                <li><a href="#">Remoção de Vírus</a></li>
+                <li><a href="#">Instalação de Programas</a></li>
+                <li><a href="#">Instalação de Impressoras</a></li>
+                <li><a href="#">Formatação de Computador</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="manutencao-de-computador" style="margin-left:80px;" uk-offcanvas="mode: slide; overlay: true">
+        <div class="uk-offcanvas-bar" style="background:rgb(48, 48, 48); z-index:989">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h2>Manutenção de Computador</h2>
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a href="#">Manutenção de Computador</a></li>
+                <li><a href="#">Otimização de Computador</a></li>
+                <li><a href="#">Backup de dados</a></li>
+                <li><a href="#">Instalação de computador</a></li>
+                <li><a href="#">Remoção de Vírus</a></li>
+                <li><a href="#">Instalação de Programas</a></li>
+                <li><a href="#">Instalação de Impressoras</a></li>
+                <li><a href="#">Formatação de Computador</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="manutencao-de-notebook" style="margin-left:80px;" uk-offcanvas="mode: slide; overlay: true">
+        <div class="uk-offcanvas-bar" style="background:rgb(48, 48, 48); z-index:989">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h2>Manutenção de Notebook</h2>
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a href="#">Manutenção de Computador</a></li>
+                <li><a href="#">Otimização de Computador</a></li>
+                <li><a href="#">Backup de dados</a></li>
+                <li><a href="#">Instalação de computador</a></li>
+                <li><a href="#">Remoção de Vírus</a></li>
+                <li><a href="#">Instalação de Programas</a></li>
+                <li><a href="#">Instalação de Impressoras</a></li>
+                <li><a href="#">Formatação de Computador</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="wifi-e-redes" style="margin-left:80px;" uk-offcanvas="mode: slide; overlay: true">
+        <div class="uk-offcanvas-bar" style="background:rgb(48, 48, 48); z-index:989">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h2>Wi-Fi e Redes</h2>
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a href="#">Manutenção de Computador</a></li>
+                <li><a href="#">Otimização de Computador</a></li>
+                <li><a href="#">Backup de dados</a></li>
+                <li><a href="#">Instalação de computador</a></li>
+                <li><a href="#">Remoção de Vírus</a></li>
+                <li><a href="#">Instalação de Programas</a></li>
+                <li><a href="#">Instalação de Impressoras</a></li>
+                <li><a href="#">Formatação de Computador</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="uk-grid-collapse" uk-grid>
+        <div class="uk-background-secondary uk-width-auto  uk-text-center" style="width:80px; z-index:999990">
+            <div class="  " uk-sticky="offset:10">
+                <ul id="nav-left" class="uk-iconnav uk-iconnav-vertical ">
+                    <li><a href="#" uk-icon="icon: lifesaver; ratio: 2" uk-tooltip="title: Suporte Técnico de Informática; pos: right"
+                            uk-toggle="target: #suporte-tecnico-de-informatica"></a></li>
+                    <li><a href="#" uk-icon="icon: cog; ratio: 2" uk-tooltip="title: Assistência e Manutenção; pos: right"
+                            uk-toggle="target: #assistencia-e-manutencao"></a></li>
+                    <li><a href="#" uk-icon="icon: desktop; ratio: 2" uk-tooltip="title: Manutenção de Computador; pos: right"
+                            uk-toggle="target: #manutencao-de-computador"></a></li>
+                    <li><a href="#" uk-icon="icon: laptop; ratio: 2" uk-tooltip="title: Manutenção de Notebook; pos: right"
+                            uk-toggle="target: #manutencao-de-notebook"></a></li>
+                    <li><a href="#" uk-icon="icon: wifi; ratio: 2" uk-tooltip="title: Manutenção de Notebook; pos: right"
+                            uk-toggle="target: #manutencao-de-notebook"></a></li>
+                    <li><a href="#" uk-icon="icon: receiver; ratio: 2"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="uk-width-expand">
+
+            <div id="cabecalho"
+                "sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+                <nav class="uk-navbar-container uk-padding-small" uk-navbar style="position: relative; z-index: 980;">
+
+
+
+                    <div class="uk-navbar-left">
+                        <img src="img/logo-hurone.svg" alt="">
+                    </div>
+
+                    <div class="uk-navbar-right ">
+
+                        <ul class="uk-navbar-nav uk-visible@m">
+                            <li class="uk-active"><a href="#">Active</a></li>
+                            <li>
+                                <a href="#">Parent</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Active</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Item</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                        <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>Open</a>
+                    </div>
+
+                </nav>
+            </div>
+
+
+            <div id="conteudo" class="uk-container-size-expand">
+
+                <div class="uk-padding-large uk-background-contain uk-background-center-right uk-light uk-flex uk-padding"
+                    uk-parallax="bgy: -200" style=" background-color:#1E87F0;">
+                    <div class="uk-width-1-1@m uk-text-left  uk-margin-auto-vertical">
+                        <h1 style="text-transform:uppercase">Os melhores serviços de informática<br>para você e seu
+                            negócio.</h1>
+                        <button class="uk-button uk-button-primary  uk-margin-small-bottom">Solicite Agora</button>
+                    </div>
+
+
+                </div>
+                <div id="servicos" class="uk-padding-large">
+                    <h2 class="    uk-text-primary uk-margin-medium-bottom">Suporte Técnico, Assistência e Manutenção</h2>
+                    <div class="uk-child-width-1-3@m " uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 500; repeat: true">
+
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/suporte-tecnico.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <h4 class="uk-card-title ">Suporte Técnico de Informática</h4>
+                                    <span>A partir de <span class="uk-label uk-label-success">R$ 120,00</span></span>
+                                    <p>Instalação de impressoras, instalação de programas, correção de erros, solução
+                                        de problemas</p>
+                                    <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/manutencao-de-computador.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <h4 class="uk-card-title">Manutenção de Computador</h4>
+                                    <span>A partir de <span class="uk-label uk-label-success">R$ 120,00</span></span>
+                                    <p>Manutenção corretiva e preventiva, remoção de vírus, reinstalação do sistema
+                                        operacional, formatação, otimização e Instalação de Periféricos</p>
+
+                                    <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/manutencao-de-notebook.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <h4 class="uk-card-title uk-text-medium">Manutenção de Notebook</h4>
+                                    <span>A partir de <span class="uk-label uk-label-success">R$ 120,00</span></span>
+                                    <p>Manutenção, remoção de vírus, reinstalação do sistema operacional, formatação,
+                                        otimização e Instalação de Periféricos</p>
+
+                                    <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/manutencao-de-notebook.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <h4 class="uk-card-title uk-text-medium">Manutenção de Notebook</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt.</p>
+                                    <button class="uk-button uk-button-default uk-button-small">Small button</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-background-muted" uk-grid>
+                <div>
+                    <div class="uk-padding">
+                            <span uk-icon="icon: home; ratio: 3"></span>
+                        <h3>Atendimento em Domicílio</h3>
+                        <p>Atendemos em domicílio, bairros da Zona Norte, Zona Sul, Zona Oeste e Centro do Rio de Janeiro.</p>
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class=" uk-padding ">
+                            <span uk-icon="icon: lifesaver; ratio: 3"></span>
+                            <h3>Suporte para Empresas</h3>
+                            <p>Prestamos serviços também para pequenas empresas, escritórios e profissionais liberais.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class=" uk-padding ">
+                            <span uk-icon="icon: check; ratio: 3"></span>
+                            <h3>Garantia de Qualidade</h3>
+                            <p>Todos os serviços possuem garantia e você só paga se o problema for resolvido.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="offcanvas-slide" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Item</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

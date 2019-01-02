@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="65.520241mm"
+   height="11.894356mm"
+   viewBox="0 0 65.520241 11.894356"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo-hurone-rasterized.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="72.585399"
+     inkscape:cy="61.057314"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="993"
+     inkscape:window-x="-10"
+     inkscape:window-y="-10"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.972499,-71.930994)">
+    <g
+       aria-label="HURON"
+       transform="scale(0.88900949,1.1248474)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40868378px;line-height:1.25;font-family:'Shimano SquareBlack';-inkscape-font-specification:'Shimano SquareBlack';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23521708"
+       id="text817">
+      <path
+         d="m 60.197297,72.169662 v -5.513488 h -2.991961 v 2.098136 h -2.935509 v -2.098136 h -2.991962 v 5.513488 h 2.991962 V 69.8269 h 2.935509 v 2.342762 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Shimano SquareBlack';-inkscape-font-specification:'Shimano SquareBlack';fill:#00628f;fill-opacity:1;stroke-width:0.23521708"
+         id="path949" />
+      <path
+         d="m 70.818819,72.169662 v -5.513488 h -2.991961 v 4.384446 h -2.935509 v -4.384446 h -2.991962 c 0,0 0,3.735247 0,5.513488 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Shimano SquareBlack';-inkscape-font-specification:'Shimano SquareBlack';fill:#00628f;fill-opacity:1;stroke-width:0.23521708"
+         id="path951" />
+      <path
+         d="m 81.534428,72.169662 -2.154588,-2.21104 h 1.401893 c 0,0 0,-2.305128 0,-3.302448 h -8.260824 v 5.513488 h 2.991962 v -2.220449 l 2.248675,2.220449 z m -3.697613,-2.719109 h -2.323944 v -1.665337 h 2.323944 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Shimano SquareBlack';-inkscape-font-specification:'Shimano SquareBlack';fill:#00628f;fill-opacity:1;stroke-width:0.23521708"
+         id="path953" />
+      <path
+         d="m 91.455444,72.169662 c 0,-0.931459 0,-4.055142 0,-5.513488 h -8.919432 c 0,0.950277 0,5.513488 0,5.513488 0,0 7.564581,0 8.919432,0 z M 88.463482,71.04062 h -2.935509 v -3.255404 h 2.935509 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Shimano SquareBlack';-inkscape-font-specification:'Shimano SquareBlack';fill:#00628f;fill-opacity:1;stroke-width:0.23521708"
+         id="path955" />
+      <path
+         d="m 102.07697,72.169662 c 0,0 0,-3.71643 0,-5.513488 h -8.919436 v 5.513488 h 2.991962 v -4.384446 h 2.935509 v 4.384446 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Shimano SquareBlack';-inkscape-font-specification:'Shimano SquareBlack';fill:#00628f;fill-opacity:1;stroke-width:0.23521708"
+         id="path957" />
+    </g>
+    <path
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26009881;stroke-opacity:1"
+       d="m 92.256157,74.978363 h 7.230734 v 1.265354 h -7.230734 z"
+       id="rect819" />
+    <path
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26009881;stroke-opacity:1"
+       d="m 92.262009,79.909592 h 7.230734 v 1.265354 h -7.230734 z"
+       id="rect819-7" />
+    <path
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.20674145;stroke-opacity:1"
+       d="m 92.255295,77.426811 h 4.568364 v 1.265355 h -4.568364 z"
+       id="rect819-7-5" />
+    <g
+       id="g905"
+       transform="matrix(0.26458333,0,0,0.26458333,46.288616,40.565682)"
+       style="fill:#333333;fill-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="Layer_1"
+         style="fill:#333333;fill-opacity:1">
+	<g
+   id="g855"
+   style="fill:#333333;fill-opacity:1">
+		
+	<path
+   id="path853-2"
+   d="m -27.395686,163.28346 c -0.108827,0.10882 -0.326479,0.21765 -0.544131,0.21765 -0.217653,0 -0.435306,-0.10883 -0.544132,-0.21765 l -17.847502,-17.84751 c -0.108826,-0.10882 -0.217652,-0.32648 -0.217652,-0.54413 v -25.57416 c 0,-0.32648 0.217652,-0.54413 0.435305,-0.65296 0.326478,-0.10882 0.652957,0 0.761784,0.10883 l 17.412197,17.4122 17.412196,-17.4122 c 0.217653,-0.21765 0.5441314,-0.32648 0.7617844,-0.10883 0.326478,0.10883 0.435305,0.43531 0.435305,0.65296 v 25.57416 c 0,0.21765 -0.108827,0.43531 -0.217653,0.54413 z m -15.562151,-19.58872 15.01802,15.01801 15.018019,-15.01801 v -17.62985 l -12.515016,12.62384 3.155961,3.15596 -2.503004,2.503 -3.15596,-3.15596 -3.155962,3.15596 -2.503002,-2.503 3.15596,-3.15596 -12.515016,-12.62384 z"
+   class="st0"
+   inkscape:connector-curvature="0"
+   style="fill:#333333;fill-opacity:1;stroke-width:1.08826232" />
+</g>
+
+</g>
+    </g>
+  </g>
+  <style
+     id="style851"
+     type="text/css">
+	.st0{fill:#333333;}
+</style>
+</svg>
